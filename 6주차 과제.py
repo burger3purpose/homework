@@ -86,6 +86,7 @@ def showdata():
         list_data1.insert(END, item1); list_data2.insert(END, item2)
         list_data3.insert(END, item3); list_data4.insert(END, item4)
     con.close()
+    
 window = Tk()
 window.title("GUI 데이터 입력")
 edt_Frame = Frame(window)
